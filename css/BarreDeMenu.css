@@ -1,0 +1,49 @@
+#layout {
+    background-color: black;
+}
+
+#container {
+    display: flex;
+}
+
+#logo {
+    width: 50%;
+    margin-left: 25%;
+}
+/* les liens */
+.item {
+    text-decoration:none; 
+    color: #f1f1f1;
+}
+
+.item:hover,
+.item:focus {
+    text-decoration:none; 
+    color: #ffee00;
+    text-shadow: 0 1px 0 rgba(128, 130, 143, 1);
+    font-family: 'Cinzel Decorative', cursive;
+    transition: 0,3s all;
+}
+
+*nav {
+    display: none;
+    width: 100%;
+    height: 70px;
+    position: relative;
+    z-index: 1000;
+    position: fixed;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-grow: 2;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 2%;
+}
+li {
+    font-family: source code pro;
+    font-size: 32px;
+    margin: 0 20px;
+    cursor: pointer;
+}
